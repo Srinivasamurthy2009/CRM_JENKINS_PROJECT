@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CreateNewCampaign1 {
 
-		@Test
+		@Test (groups = "Smoke Test")
 		
 		public void createOrg() {
 			Reporter.log("Created Campaign Successfully", true);
